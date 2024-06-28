@@ -57,15 +57,15 @@ export const config = {
   
     capabilities: [
         {
-            maxInstances: 1,
+            maxInstances: 2,
             browserName: 'chrome',
             acceptInsecureCerts: true,
         },
-        // {
-        //     maxInstances: 1,
-        //     browserName: 'firefox',
-        //     acceptInsecureCerts: true,
-        // }
+        {
+            maxInstances: 1,
+            browserName: 'firefox',
+            acceptInsecureCerts: true,
+        }
     ],
 
 
